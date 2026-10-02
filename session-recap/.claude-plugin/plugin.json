@@ -1,1 +1,1 @@
-{ "name": "session-recap", "version": "0.1.0", "description": "Band above the prompt: open questions Claude asked you plus bullets of what the last prompt did", "types": "./types/index.d.ts" }
+{ "name": "session-recap", "version": "0.1.0", "description": "Band above the prompt: open questions Claude asked you plus bullets of what the last prompt did", "author": { "name": "wickedhardflip" }, "types": "./types/index.d.ts" }

@@ -1,1 +1,1 @@
-{ "name": "run-breakdown", "version": "0.1.0", "description": "Band above the prompt: after a long run, which model and effort the main session, each subagent, Gemini and Ollama used", "types": "./types/index.d.ts" }
+{ "name": "run-breakdown", "version": "0.1.0", "description": "Band above the prompt: after a long run, which model and effort the main session, each subagent, Gemini and Ollama used", "author": { "name": "wickedhardflip" }, "types": "./types/index.d.ts" }
