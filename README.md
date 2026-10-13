@@ -1,6 +1,6 @@
 # Claude Code mods
 
-Small mods for [Claude Code](https://claude.com/claude-code) that put useful information where it doesn't scroll away: a status line, a band above the prompt. Each mod is a self-contained plugin of function hooks, written with Claude's help.
+Small mods for [Claude Code](https://claude.com/claude-code) that put useful information where it doesn't scroll away: a status line, a band above the prompt, a plan checklist. Each mod is a self-contained plugin of function hooks, written with Claude's help.
 
 Built and tested on Claude Code **2.1.287** on Windows. Mods are a recent Claude Code feature, so you need a build that has hook modules turned on.
 
@@ -8,6 +8,8 @@ Built and tested on Claude Code **2.1.287** on Windows. Mods are a recent Claude
 | --- | --- | --- | --- |
 | [subagent-models](subagent-models) | Which model each subagent runs on | Status line under the prompt | No |
 | [session-recap](session-recap) | What the last prompt did, plus questions Claude is waiting on | Band above the prompt | Yes, one small Haiku call per prompt |
+| [clean-view](clean-view) | Hides tool-call rows while Claude works; shows the plan as a colored checklist | Band above the prompt | No |
+| [agent-dock](agent-dock) | `/dock N` splits work across N subagents; a live line per agent, Ollama and Gemini call, each with its model | Band above the prompt | No |
 | [run-breakdown](run-breakdown) | After a long run: model and effort for the main session, each subagent, Gemini and Ollama | Band above the prompt | No |
 | [first-mod](first-mod) | Starter example: a toast on start and a tool-call counter | Toast and status line | No |
 

@@ -1,0 +1,1 @@
+{ "name": "clean-view", "version": "0.1.0", "description": "Hides tool-call rows while Claude works; shows a plan checklist band (done / current / left).", "types": "./types/index.d.ts" }

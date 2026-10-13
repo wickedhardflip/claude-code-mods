@@ -1,0 +1,1 @@
+{ "name": "agent-dock", "version": "0.1.0", "description": "/dock N tells Claude to split work across N subagents; a band shows a live card per agent.", "types": "./types/index.d.ts" }
