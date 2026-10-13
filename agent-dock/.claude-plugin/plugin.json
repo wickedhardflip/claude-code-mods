@@ -1,1 +1,17 @@
-{ "name": "agent-dock", "version": "0.1.0", "description": "/dock N tells Claude to split work across N subagents; a band shows a live card per agent.", "types": "./types/index.d.ts" }
+{
+  "name": "agent-dock",
+  "version": "0.2.0",
+  "description": "/dock N tells Claude to split work across N subagents; a band shows a live card per agent.",
+  "author": {
+    "name": "wickedhardflip"
+  },
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "defaultSize": {
+      "type": "number",
+      "title": "Default team size",
+      "description": "Team size each session starts with, 0 to 8. 0 leaves the dock off until /dock is used.",
+      "default": 0
+    }
+  }
+}
