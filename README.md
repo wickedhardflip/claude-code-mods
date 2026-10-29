@@ -11,6 +11,7 @@ Built and tested on Claude Code **2.1.287** on Windows. Mods are a recent Claude
 | [clean-view](clean-view) | Hides tool-call rows while Claude works; shows the plan as a colored checklist | Band above the prompt | No |
 | [agent-dock](agent-dock) | `/dock N` (or a default size) splits work across N subagents; a live line per agent, Ollama and Gemini call, each with its model | Band above the prompt | No |
 | [run-breakdown](run-breakdown) | After a long run: model and effort for the main session, each subagent, Gemini and Ollama | Band above the prompt | No |
+| [tripwire](tripwire) | Blocks Bash commands that repeat known mistakes (heredoc source edits, relative ssh keys, hand-edited VMs, force pushes) | Status line under the prompt | No |
 | [first-mod](first-mod) | Starter example: a toast on start and a tool-call counter | Toast and status line | No |
 
 ## Install
