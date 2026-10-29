@@ -1,0 +1,1 @@
+{ "name": "ship-board", "version": "0.1.0", "description": "Pane beside the chat: each worktree's branch, dirty files, unpushed commits and merge state, plus the last CI or deploy run", "author": { "name": "wickedhardflip" }, "types": "./types/index.d.ts" }

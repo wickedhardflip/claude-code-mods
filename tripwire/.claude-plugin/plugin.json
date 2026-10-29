@@ -1,0 +1,1 @@
+{ "name": "tripwire", "version": "0.1.0", "description": "Blocks Bash commands that repeat known mistakes (heredoc source edits, relative ssh keys, hand-edited Terraform VMs, NAS deletes, force pushes) and shows a block count in the status line", "author": { "name": "wickedhardflip" } }
