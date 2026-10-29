@@ -21,7 +21,7 @@ export const rules: Rule[] = [
   },
   {
     id: 'relative-ssh-key',
-    why: 'Use the absolute key path, like C:/Users/briwa/OneDrive/Claude/.ssh/pve; a relative -i path fails from other folders.',
+    why: 'Use the absolute key path, like C:/Users/you/.ssh/id_ed25519; a relative -i path fails from other folders.',
     test: c => /\bssh(-add)?\b[^|;&]*\s-i\s+['"]?\.{0,2}\/?\.ssh\//.test(c),
   },
   {
